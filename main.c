@@ -36,7 +36,7 @@ int main(void) {
     fprintf(myFile,"%d\n",dim);
     printf("\n");
 
-    for (i = 1; i < dim; i++){
+    for (i = 0; i < dim; i++){
         fprintf(myFile,"%.1f\n",array[i]);
     }
 
